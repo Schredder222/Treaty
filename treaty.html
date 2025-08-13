@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Line</title>
+    <style>
+        /* To make images align horizontally */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px; /* Adds space between images */
+        }
+        
+        /* Individual image resizing */
+        .speech {
+            width: 8%; /* Resize speech image */
+        }
+        .arrow {
+            width: 5%; /* Resize arrow image */
+        }
+        .treaty {
+            width: 5%; /* Resize treaty image */
+        }
+        .signature {
+            width: 5%; /* Resize signature image */
+        }
+        .ratification {
+            width: 16%; /* Resize ratification image */
+        }
+        
+        /* Maintain aspect ratio */
+        img {
+            height: auto;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="https://schredder222.github.io/Treaty/speech.gif" alt="speech" class="speech">
+        <img src="https://schredder222.github.io/Treaty/arrow.png" alt="arrow" class="arrow">
+        <img src="https://schredder222.github.io/Treaty/treaty.gif" alt="treaty" class="treaty">
+        <img src="https://schredder222.github.io/Treaty/arrow.png" alt="arrow" class="arrow">
+        <img src="https://schredder222.github.io/Treaty/signature.gif" alt="signature" class="signature">
+        <img src="https://schredder222.github.io/Treaty/arrow.png" alt="arrow" class="arrow">
+        <img src="https://schredder222.github.io/Treaty/ratification.gif" alt="ratification" class="ratification">
+    </div>
+
+</body>
+</html>
